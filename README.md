@@ -1,5 +1,6 @@
 # AVLR-Mapper
 AVLR-Mapper: An accurate and variable length read-mapping tool on Apache Spark Platform 
+
 Steps to use AVLR-Mapper
     1.   Install Hadoop and Apache Spark
     2.   Download AVLR-Mapper from github.
@@ -7,6 +8,7 @@ Steps to use AVLR-Mapper
     4.   Put reference genome (text or fasta) and query data (text, fasta or fastq) file on Hadoop 
             hadoop fs -copyFromLocal /path/to/reference.fasta / 
             hadoop fs -copyFromLocal /path/to/query.fastq /
+
 Index Generation
     5.   Transform and clean reference
             cd suffix-prep
